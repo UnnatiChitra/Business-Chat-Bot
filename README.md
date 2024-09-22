@@ -8,3 +8,7 @@ This project builds a question-answering bot that retrieves information from a P
 - Run the script to process the document and index it.
 - Use the query_qa_bot function to ask questions.
 
+## Challenges Faced
+- Embedding Limitations: Cohere has token limits for embeddings. Managing text chunk sizes effectively is crucial.
+- API Key Management: Ensured secure handling of API keys. Used environment variables and secrets management.
+
